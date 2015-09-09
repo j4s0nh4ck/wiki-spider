@@ -7,6 +7,7 @@ from scrapy.linkextractors import LinkExtractor
 #from scrapy.sgml import SgmlLinkExtractor 
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
+from scrapy.exceptions import CloseSpider
 import re
 
 class LocalwikiSpider(scrapy.Spider):
@@ -31,7 +32,7 @@ class LocalwikiSpider(scrapy.Spider):
         hrefs = set(filter(lambda s: (s[0] == "/") and (s != '/favicon.ico') and ( not self.regex.search(s)) ,response.selector.xpath("//@href").extract()))
         for href in hrefs:
             if href in self.all_urls:
-                continue
+                raise CloseSpider('force stop')
             self.all_urls.add(href)
             url = response.urljoin(href)
             self.log("In parser:\t\t" + url + "\n")
@@ -47,7 +48,7 @@ class LocalwikiSpider(scrapy.Spider):
         
         for href in hrefs:
             if href in self.all_urls:
-                continue
+                raise CloseSpider('force stop')
             url = response.urljoin(href)
 #            self.log("In parse_dir_contents:\t\t" + url + "\n")
 #            self.log("In parse_dir_contents:\t original url: %s\t current url: %s" %(response.request.url, url))
