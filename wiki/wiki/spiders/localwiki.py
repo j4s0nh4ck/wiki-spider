@@ -5,7 +5,7 @@ from wiki.items import WikiItem
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 #from scrapy.sgml import SgmlLinkExtractor 
-from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
 import re
 
