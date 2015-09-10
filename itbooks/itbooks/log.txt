@@ -1,0 +1,2284 @@
+INFO: Scrapy 1.0.3 started (bot: itbooks)
+INFO: Optional features available: ssl, http11
+INFO: Overridden settings: {'NEWSPIDER_MODULE': 'itbooks.spiders', 'SPIDER_MODULES': ['itbooks.spiders'], 'LOG_LEVEL': 'WARNING', 'BOT_NAME': 'itbooks'}
+INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+INFO: Enabled item pipelines: 
+INFO: Spider opened
+INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Telnet console listening on 127.0.0.1:6024
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/> (referer: None)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6256/> (referer: http://it-ebooks.info/tag/programming/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6256/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6256/>
+{'subtitle': [u'Master efficient parallel programming to build powerful applications using Python'],
+ 'title': [u'Python Parallel Programming Cookbook']}
+DEBUG: Filtered offsite request to 'qrcode.online': <GET http://qrcode.online/?url=http%3A%2F%2Fit-ebooks.info%2Fbook%2F6256%2F>
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6164/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6145/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6174/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6138/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6179/> (referer: http://it-ebooks.info/tag/programming/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6164/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6164/>
+{'subtitle': [], 'title': [u'Programming Robots with ROS']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6145/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6145/>
+{'subtitle': [u'Explore and crack the OOP code in Python, JavaScript, and C#'],
+ 'title': [u'Learning Object-Oriented Programming']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6174/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6174/>
+{'subtitle': [u'Build Android apps to capture, manipulate, and track objects in 2D and 3D'],
+ 'title': [u'Android Application Programming with OpenCV 3']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6138/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6138/>
+{'subtitle': [u'Leverage the power of programming to use the Raspberry Pi to create awesome games'],
+ 'title': [u'Raspberry Pi Projects for Kids, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6179/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6179/>
+{'subtitle': [u'Develop your analytical and programming skills further in Julia to solve complex data processing problems'],
+ 'title': [u'Mastering Julia']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/2/> (referer: http://it-ebooks.info/tag/programming/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/2/
+DEBUG: Filtered duplicate request: <GET http://it-ebooks.info/book/6138/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6226/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6232/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3515/> (referer: http://it-ebooks.info/book/6256/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6251/> (referer: http://it-ebooks.info/tag/programming/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1995/> (referer: http://it-ebooks.info/book/6256/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6242/> (referer: http://it-ebooks.info/tag/programming/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6226/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6226/>
+{'subtitle': [], 'title': [u'Swift OS X Programming for Absolute Beginners']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6232/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6232/>
+{'subtitle': [u'Unleash the potential of BeagleBone using Python'],
+ 'title': [u'Learning BeagleBone Python Programming']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3515/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3515/>
+{'subtitle': [u'Over 70 detailed recipes to develop practical solutions for a wide range of real-world network programming tasks'],
+ 'title': [u'Python Network Programming Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6251/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6251/>
+{'subtitle': [u'Harness the power of the BeagleBone Black to manage external environments using C, Bash, and Python/PHP programming'],
+ 'title': [u'BeagleBone Essentials']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1995/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1995/>
+{'subtitle': [u'Over 50 recipes to master this library of programming functions for real-time computer vision'],
+ 'title': [u'OpenCV 2 Computer Vision Application Programming Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6242/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6242/>
+{'subtitle': [u'Unleash the power of Python 3 objects'],
+ 'title': [u'Python 3 Object-oriented Programming, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3708/> (referer: http://it-ebooks.info/book/6256/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2722/> (referer: http://it-ebooks.info/book/6164/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3708/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3708/>
+{'subtitle': [u'Develop efficient parallel systems using the robust Python environment'],
+ 'title': [u'Parallel Programming with Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1295/> (referer: http://it-ebooks.info/book/6145/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4296/> (referer: http://it-ebooks.info/book/6145/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3361/> (referer: http://it-ebooks.info/book/6145/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2722/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2722/>
+{'subtitle': [u'Over 75 recipes to help you automate geoprocessing tasks, create solutions, and solve problems for ArcGIS with Python'],
+ 'title': [u'Programming ArcGIS 10.1 with Python Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1295/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1295/>
+{'subtitle': [], 'title': [u'Beginning Object-Oriented Programming with C#']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4296/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4296/>
+{'subtitle': [u"Learn to leverage PHP5's OOP features to write manageable applications with ease"],
+ 'title': [u'Object-Oriented Programming with PHP5']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3361/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3361/>
+{'subtitle': [u'Grasp the intricacies of object-oriented programming in Python in order to efficiently build powerful real-world applications'],
+ 'title': [u'Mastering Object-oriented Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5630/> (referer: http://it-ebooks.info/book/6164/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/56/> (referer: http://it-ebooks.info/book/6164/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5630/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5630/>
+{'subtitle': [u'Swift, Xcode, and Cocoa Basics'],
+ 'title': [u'iOS 8 Programming Fundamentals with Swift']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/56/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/56/>
+{'subtitle': [u'Create Compelling Mac Apps Using RubyCocoa'],
+ 'title': [u'Programming Cocoa with Ruby']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5800/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6155/> (referer: http://it-ebooks.info/tag/programming/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5800/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5800/>
+{'subtitle': [], 'title': [u'Pro Java 8 Programming, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6155/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6155/>
+{'subtitle': [u"Build & Run Scalable Java Applications on Google's Infrastructure"],
+ 'title': [u'Programming Google App Engine with Java']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/3/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/39/> (referer: http://it-ebooks.info/book/6179/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/3/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6022/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5814/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/39/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/39/>
+{'subtitle': [u'JavaScript and Ajax Tools for Great Web Experiences'],
+ 'title': [u'Mastering Dojo']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6022/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6022/>
+{'subtitle': [u'Harness the power of the Android SDK by building three immersive and captivating games'],
+ 'title': [u'Android Game Programming by Example']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5814/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5814/>
+{'subtitle': [u'Scripting the GNU/Linux Shell'],
+ 'title': [u'Pro Bash Programming, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6034/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2181/> (referer: http://it-ebooks.info/book/1995/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6034/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6034/>
+{'subtitle': [u"Build and Run Scalable Python Apps on Google's Infrastructure"],
+ 'title': [u'Programming Google App Engine with Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5953/> (referer: http://it-ebooks.info/tag/programming/page/2/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1421/> (referer: http://it-ebooks.info/book/3708/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2181/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2181/>
+{'subtitle': [u'Over 90 highly-effective recipes to unleash your creativity with interactive art, graphics, computer vision, 3D, and more'],
+ 'title': [u'Processing 2: Creative Programming Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2363/> (referer: http://it-ebooks.info/book/6242/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5953/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5953/>
+{'subtitle': [u'Over 140 recipes to help you turn QGIS from a desktop GIS tool into a powerful automated geospatial framework'],
+ 'title': [u'QGIS Python Programming Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1421/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1421/>
+{'subtitle': [],
+ 'title': [u'Parallel Programming with Intel Parallel Studio XE']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2363/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2363/>
+{'subtitle': [],
+ 'title': [u'Beginning C# Object-Oriented Programming, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5816/> (referer: http://it-ebooks.info/book/6138/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4472/> (referer: http://it-ebooks.info/book/3708/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3723/> (referer: http://it-ebooks.info/book/3708/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5816/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5816/>
+{'subtitle': [u'Learn C Programming for the Arduino'],
+ 'title': [u'Beginning C for Arduino, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4472/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4472/>
+{'subtitle': [], 'title': [u'Beginning Programming with Python For Dummies']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3101/> (referer: http://it-ebooks.info/book/3361/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3723/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3723/>
+{'subtitle': [], 'title': [u'Learn Raspberry Pi Programming with Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/932/> (referer: http://it-ebooks.info/book/3361/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3101/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3101/>
+{'subtitle': [u'Create scalable, reusable high-quality JavaScript applications, and libraries'],
+ 'title': [u'Object-Oriented JavaScript']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/932/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/932/>
+{'subtitle': [], 'title': [u'Object-Oriented Thought Process, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/387/> (referer: http://it-ebooks.info/book/6155/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/387/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/387/>
+{'subtitle': [u"Build and Run Scalable Web Apps on Google's Infrastructure"],
+ 'title': [u'Programming Google App Engine']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2262/> (referer: http://it-ebooks.info/book/56/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2262/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2262/>
+{'subtitle': [u'Exploring Concepts and Curriculum with Ruby'],
+ 'title': [u'Computer Science Programming Basics in Ruby']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4897/> (referer: http://it-ebooks.info/book/6155/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/295/> (referer: http://it-ebooks.info/book/56/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/4/> (referer: http://it-ebooks.info/tag/programming/page/3/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4897/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4897/>
+{'subtitle': [u'Master the full range of development features provided by Google App Engine to build and run scalable web applications in Python'],
+ 'title': [u'Python for Google App Engine']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5647/> (referer: http://it-ebooks.info/tag/programming/page/3/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/295/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/295/>
+{'subtitle': [], 'title': [u'Learning Cocoa with Objective-C, 2nd Edition']}
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/4/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5647/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5647/>
+{'subtitle': [u'Learn C++ programming with a fun, real-world application that allows you to create your own games!'],
+ 'title': [u'Learning C++ by Creating Games with UE4']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/291/> (referer: http://it-ebooks.info/book/39/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/291/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/291/>
+{'subtitle': [u'Powering Up Ajax Development Techniques'],
+ 'title': [u'Dojo: The Definitive Guide']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5668/> (referer: http://it-ebooks.info/tag/programming/page/3/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5668/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5668/>
+{'subtitle': [u'Deliver high-quality, bug-free applications by testing them with efficient and expressive functional programming'],
+ 'title': [u'Testing with F#']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5676/> (referer: http://it-ebooks.info/tag/programming/page/3/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5676/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5676/>
+{'subtitle': [], 'title': [u'Practical C++ Financial Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/408/> (referer: http://it-ebooks.info/book/39/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2948/> (referer: http://it-ebooks.info/book/2181/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/408/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/408/>
+{'subtitle': [u'Mastering the iPad SDK'],
+ 'title': [u'Beginning iPad Development for iPhone Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1434/> (referer: http://it-ebooks.info/book/1421/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2948/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2948/>
+{'subtitle': [u'Create compelling animations and graphics with Kinect and camera input, using one of the most powerful C++ frameworks available'],
+ 'title': [u'Cinder Creative Coding Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1434/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1434/>
+{'subtitle': [u'Design Patterns for Decomposition and Coordination on Multicore Architectures'],
+ 'title': [u'Parallel Programming with Microsoft Visual C++']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2997/> (referer: http://it-ebooks.info/book/2181/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2424/> (referer: http://it-ebooks.info/book/4472/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2997/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2997/>
+{'subtitle': [u'Learn Processing with exciting and engaging projects to make your computer talk, see, hear, express emotions, and even design physical objects'],
+ 'title': [u'Processing 2: Creative Coding Hotshot']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2424/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2424/>
+{'subtitle': [], 'title': [u'HTML5 Programming with JavaScript For Dummies']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3869/> (referer: http://it-ebooks.info/book/932/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6006/> (referer: http://it-ebooks.info/book/2262/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3869/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3869/>
+{'subtitle': [], 'title': [u'Beginning Hibernate, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6006/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6006/>
+{'subtitle': [u'A Story About Computer Science and Other Improbable Things'],
+ 'title': [u'Lauren Ipsum']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2466/> (referer: http://it-ebooks.info/book/2262/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2466/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2466/>
+{'subtitle': [u'A Computational Problem-Solving Focus'],
+ 'title': [u'Introduction to Computer Science Using Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1433/> (referer: http://it-ebooks.info/book/1421/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3614/> (referer: http://it-ebooks.info/book/4472/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1433/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1433/>
+{'subtitle': [],
+ 'title': [u'Parallel Programming with Microsoft Visual Studio 2010 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/43/> (referer: http://it-ebooks.info/book/2262/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1970/> (referer: http://it-ebooks.info/book/3723/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3614/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3614/>
+{'subtitle': [],
+ 'title': [u'Beginning Programming with Java For Dummies, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/43/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/43/>
+{'subtitle': [u'An Introduction to Computer Science Using Python'],
+ 'title': [u'Practical Programming']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1970/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1970/>
+{'subtitle': [], 'title': [u'Learn Raspberry Pi with Linux']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/884/> (referer: http://it-ebooks.info/book/291/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/884/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/884/>
+{'subtitle': [u'Interactive Applications for the Web'],
+ 'title': [u'Ajax: The Definitive Guide']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/576/> (referer: http://it-ebooks.info/book/291/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/5/> (referer: http://it-ebooks.info/tag/programming/page/4/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4855/> (referer: http://it-ebooks.info/tag/programming/page/4/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/576/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/576/>
+{'subtitle': [u'Continuous integration for the masses'],
+ 'title': [u'Jenkins: The Definitive Guide']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4449/> (referer: http://it-ebooks.info/book/3101/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/5/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4855/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4855/>
+{'subtitle': [u'Extend PostgreSQL using PostgreSQL server programming to create, test, debug, and optimize a range of user-defined functions in your favorite programming language'],
+ 'title': [u'PostgreSQL Server Programming, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/198/> (referer: http://it-ebooks.info/book/291/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4449/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4449/>
+{'subtitle': [], 'title': [u'The Principles of Object-Oriented JavaScript']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/198/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/198/>
+{'subtitle': [u'ActionScript for Flash MX: The Definitive Guide PDF'],
+ 'title': [u'ActionScript for Flash MX: The Definitive Guide, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3196/> (referer: http://it-ebooks.info/book/408/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2455/> (referer: http://it-ebooks.info/book/1434/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3196/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3196/>
+{'subtitle': [u"A Learner's Guide to Creating Objective-C Applications for the iPhone and iPad"],
+ 'title': [u'Head First iPhone and iPad Development, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2455/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2455/>
+{'subtitle': [u'Covers Microsoft Visual Studio 2005, 2008, and 2010'],
+ 'title': [u'Coding Faster: Getting More Productive with Microsoft Visual Studio']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/934/> (referer: http://it-ebooks.info/book/6006/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2362/> (referer: http://it-ebooks.info/book/2948/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/934/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/934/>
+{'subtitle': [u'Volume II: Advanced Topics'],
+ 'title': [u'Android Wireless Application Development, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2362/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2362/>
+{'subtitle': [u'Creative Coding and Generative Art in Processing 2'],
+ 'title': [u'Processing, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/600/> (referer: http://it-ebooks.info/book/408/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/593/> (referer: http://it-ebooks.info/book/408/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/600/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/600/>
+{'subtitle': [u"A Learner's Guide to Creating Objective-C Applications for the iPhone and iPad"],
+ 'title': [u'Head First iPhone and iPad Development, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/593/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/593/>
+{'subtitle': [u'iOS Apps Development for .NET Developers'],
+ 'title': [u'Developing C# Apps for iPhone and iPad using MonoTouch']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2180/> (referer: http://it-ebooks.info/book/1433/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2180/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2180/>
+{'subtitle': [u'Learn and implement recommended practices for the complete software development lifecycle with Visual Studio 2010'],
+ 'title': [u'Visual Studio 2010 Best Practices']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2037/> (referer: http://it-ebooks.info/book/1970/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2037/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2037/>
+{'subtitle': [u'Automate your home with a set of exciting projects for the Raspberry Pi'],
+ 'title': [u'Raspberry Pi Home Automation with Arduino']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3751/> (referer: http://it-ebooks.info/book/2466/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3129/> (referer: http://it-ebooks.info/book/2466/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1188/> (referer: http://it-ebooks.info/book/884/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3751/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3751/>
+{'subtitle': [u'An Introduction to Computer Science Using Python 3'],
+ 'title': [u'Practical Programming, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3129/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3129/>
+{'subtitle': [u"Over 60 recipes that will enable you to learn how to create attractive visualizations using Python's most popular libraries"],
+ 'title': [u'Python Data Visualization Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1188/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1188/>
+{'subtitle': [u'Python for the Java Platform'],
+ 'title': [u'The Definitive Guide to Jython']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1857/> (referer: http://it-ebooks.info/book/43/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6137/> (referer: http://it-ebooks.info/book/1970/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1857/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1857/>
+{'subtitle': [u'Creating Dynamic Web Pages'],
+ 'title': [u'Programming PHP, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6137/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6137/>
+{'subtitle': [u'Harness the power of Raspberry Pi with Six Degrees of Freedom (6DoF) to create an amazing walking robot'],
+ 'title': [u'Raspberry Pi Robotics Essentials']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1138/> (referer: http://it-ebooks.info/book/1433/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1138/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1138/>
+{'subtitle': [u'Developing cloud-based applications with Microsoft Visual Studio 2010'],
+ 'title': [u'Windows Azure Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/6/> (referer: http://it-ebooks.info/tag/programming/page/5/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3299/> (referer: http://it-ebooks.info/book/198/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1980/> (referer: http://it-ebooks.info/book/43/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/6/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3299/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3299/>
+{'subtitle': [u'Designing and Managing Local Area Networks'],
+ 'title': [u'Ethernet: The Definitive Guide, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1980/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1980/>
+{'subtitle': [u'Practical Programming for Biological Data'],
+ 'title': [u'Bioinformatics Programming Using Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/416/> (referer: http://it-ebooks.info/book/198/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3877/> (referer: http://it-ebooks.info/book/2455/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/416/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/416/>
+{'subtitle': [u'Activate Your Web Pages'],
+ 'title': [u'JavaScript: The Definitive Guide, 6th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3877/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3877/>
+{'subtitle': [u'Make your Microsoft Visual Studio work smarter with ReSharper'],
+ 'title': [u'ReSharper Essentials']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1076/> (referer: http://it-ebooks.info/book/2455/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1076/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1076/>
+{'subtitle': [],
+ 'title': [u'Professional Scrum Development with Microsoft Visual Studio 2012']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2703/> (referer: http://it-ebooks.info/book/2362/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/126/> (referer: http://it-ebooks.info/book/2362/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2703/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2703/>
+{'subtitle': [u'The Fundamentals'],
+ 'title': [u'Image Processing, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/126/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/126/>
+{'subtitle': [u'Writing Excel Macros with VBA, 2E PDF'],
+ 'title': [u'Writing Excel Macros with VBA, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2093/> (referer: http://it-ebooks.info/book/593/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1685/> (referer: http://it-ebooks.info/book/2180/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5957/> (referer: http://it-ebooks.info/book/2037/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2093/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2093/>
+{'subtitle': [],
+ 'title': [u'iPhone and iPad Apps for Absolute Beginners, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1685/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1685/>
+{'subtitle': [], 'title': [u'Software Testing using Visual Studio 2010']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5957/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5957/>
+{'subtitle': [u'Design and build your own hardware projects that interact with the real world using the Raspberry Pi'],
+ 'title': [u'Raspberry Pi Blueprints']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5666/> (referer: http://it-ebooks.info/book/2037/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/589/> (referer: http://it-ebooks.info/book/1188/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5666/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5666/>
+{'subtitle': [u'Unleash the power of the most popular microboards to build convenient, useful, and fun home automation projects'],
+ 'title': [u'Raspberry Pi Home Automation with Arduino, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/589/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/589/>
+{'subtitle': [], 'title': [u'The Definitive Guide to Drupal 7']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/499/> (referer: http://it-ebooks.info/book/1188/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2929/> (referer: http://it-ebooks.info/book/6137/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5804/> (referer: http://it-ebooks.info/book/2037/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/499/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/499/>
+{'subtitle': [], 'title': [u'The Definitive Guide to NetBeans Platform 7']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2929/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2929/>
+{'subtitle': [u'Turn your Raspberry Pi into your very own secret agent toolbox with this set of exciting projects!'],
+ 'title': [u'Raspberry Pi for Secret Agents']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1663/> (referer: http://it-ebooks.info/book/1138/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5804/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5804/>
+{'subtitle': [u'Create thrilling and intricate home automation projects using Intel Galileo'],
+ 'title': [u'Home Automation with Intel Galileo']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1867/> (referer: http://it-ebooks.info/book/1138/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/956/> (referer: http://it-ebooks.info/book/1138/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1663/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1663/>
+{'subtitle': [], 'title': [u'Windows Communication Foundation 4 Step by Step']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1867/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1867/>
+{'subtitle': [], 'title': [u'Windows PowerShell 3.0 Step by Step']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/956/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/956/>
+{'subtitle': [u'Build exactly the skills you need. Learn at the pace you want.'],
+ 'title': [u'Windows 8 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/368/> (referer: http://it-ebooks.info/book/3299/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/368/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/368/>
+{'subtitle': [], 'title': [u'Ethernet: The Definitive Guide']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5656/> (referer: http://it-ebooks.info/book/1980/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/273/> (referer: http://it-ebooks.info/book/3877/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5656/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5656/>
+{'subtitle': [u'Master how to build dynamic HTML5-ready SVG charts using Python and the pygal library'],
+ 'title': [u'Learning Python Data Visualization']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2840/> (referer: http://it-ebooks.info/book/1076/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/273/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/273/>
+{'subtitle': [], 'title': [u'C# Essentials, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5767/> (referer: http://it-ebooks.info/book/126/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/50/> (referer: http://it-ebooks.info/book/126/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2840/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2840/>
+{'subtitle': [u'Over 40 recipes for successfully mixing the powerful capabilities of .NET 4.5 and Visual Studio 2012'],
+ 'title': [u'Visual Studio 2012 and .NET 4.5 Expert Development Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1124/> (referer: http://it-ebooks.info/book/126/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5767/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5767/>
+{'subtitle': [u'Perform real-time analytics using Spark in a fast, distributed, and scalable way'],
+ 'title': [u'Fast Data Processing with Spark, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/50/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/50/>
+{'subtitle': [],
+ 'title': [u'Pragmatic Unit Testing in C# with NUnit, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1334/> (referer: http://it-ebooks.info/book/1076/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1124/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1124/>
+{'subtitle': [], 'title': [u'Excel Programming with VBA Starter']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1334/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1334/>
+{'subtitle': [], 'title': [u'Microsoft Visual C# 2012 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/514/> (referer: http://it-ebooks.info/book/1685/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/514/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/514/>
+{'subtitle': [u'From Concept to Continuous Feedback'],
+ 'title': [u'Agile Software Engineering with Visual Studio, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2473/> (referer: http://it-ebooks.info/book/499/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1553/> (referer: http://it-ebooks.info/book/2093/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2473/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2473/>
+{'subtitle': [u'Better Business Applications'],
+ 'title': [u'The Definitive Guide to SugarCRM']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1553/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1553/>
+{'subtitle': [],
+ 'title': [u'Android Apps for Absolute Beginners, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5802/> (referer: http://it-ebooks.info/book/2703/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/242/> (referer: http://it-ebooks.info/book/3877/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5802/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5802/>
+{'subtitle': [u'Exploit the amazing features of OpenCV to create powerful image processing applications through easy-to-follow examples'],
+ 'title': [u'Learning Image Processing with OpenCV']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6192/> (referer: http://it-ebooks.info/book/5804/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/242/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/242/>
+{'subtitle': [u'Facebook Markup Language Fundamentals'],
+ 'title': [u'FBML Essentials']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1050/> (referer: http://it-ebooks.info/book/5804/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3801/> (referer: http://it-ebooks.info/book/2093/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6192/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6192/>
+{'subtitle': [u'Discover the true potential of the Intel Galileo board for building exciting projects in various domains such as home automation and robotics'],
+ 'title': [u'Intel Galileo Blueprints']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1050/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1050/>
+{'subtitle': [], 'title': [u'Smart Home Automation with Linux']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3801/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3801/>
+{'subtitle': [],
+ 'title': [u'Android Apps for Absolute Beginners, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1431/> (referer: http://it-ebooks.info/book/1663/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1431/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1431/>
+{'subtitle': [],
+ 'title': [u'Microsoft SharePoint Foundation 2010 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/635/> (referer: http://it-ebooks.info/book/416/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/7/> (referer: http://it-ebooks.info/tag/programming/page/6/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/635/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/635/>
+{'subtitle': [], 'title': [u'Hadoop: The Definitive Guide, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3702/> (referer: http://it-ebooks.info/book/5656/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/7/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2326/> (referer: http://it-ebooks.info/book/273/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3702/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3702/>
+{'subtitle': [u'Visualize and analyze data with the most intuitive business intelligence tool, QlikView'],
+ 'title': [u'Learning QlikView Data Visualization']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2326/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2326/>
+{'subtitle': [u'From Novice to Professional'],
+ 'title': [u'Beginning Database Design, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/51/> (referer: http://it-ebooks.info/book/50/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/51/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/51/>
+{'subtitle': [], 'title': [u'Pragmatic Unit Testing in Java with JUnit']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2879/> (referer: http://it-ebooks.info/book/273/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2200/> (referer: http://it-ebooks.info/book/1334/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2879/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2879/>
+{'subtitle': [u'Introducing the .NET Framework'],
+ 'title': [u'.NET Framework Essentials, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2527/> (referer: http://it-ebooks.info/book/1334/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2200/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2200/>
+{'subtitle': [], 'title': [u'Microsoft Visual C# 2008 Step by Step']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2527/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2527/>
+{'subtitle': [], 'title': [u'Microsoft Visual C++/CLI Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2323/> (referer: http://it-ebooks.info/book/514/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2323/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2323/>
+{'subtitle': [],
+ 'title': [u'Pro Application Lifecycle Management with Visual Studio 2012, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1035/> (referer: http://it-ebooks.info/book/1553/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/656/> (referer: http://it-ebooks.info/book/1124/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1035/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1035/>
+{'subtitle': [], 'title': [u'Android Apps for Absolute Beginners']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/656/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/656/>
+{'subtitle': [],
+ 'title': [u'Beginning Kinect Programming with the Microsoft Kinect SDK']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/394/> (referer: http://it-ebooks.info/book/242/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1950/> (referer: http://it-ebooks.info/book/5802/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/394/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/394/>
+{'subtitle': [], 'title': [u'RT Essentials']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1677/> (referer: http://it-ebooks.info/book/6192/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1950/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1950/>
+{'subtitle': [u"Use Python's NLTK suite of libraries to maximize your Natural Language Processing capabilities"],
+ 'title': [u'Python Text Processing with NLTK 2.0 Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1677/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1677/>
+{'subtitle': [u'Roadmaps and blueprints for object-oriented programs'],
+ 'title': [u'Codecharts']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/431/> (referer: http://it-ebooks.info/book/1431/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1150/> (referer: http://it-ebooks.info/book/2840/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/431/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/431/>
+{'subtitle': [],
+ 'title': [u'Using Microsoft InfoPath 2010 with Microsoft SharePoint 2010 Step by Step']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1150/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1150/>
+{'subtitle': [], 'title': [u'Pro HTML5 with Visual Studio 2012']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3112/> (referer: http://it-ebooks.info/book/1431/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3107/> (referer: http://it-ebooks.info/book/5802/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3112/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3112/>
+{'subtitle': [u'Conquer SharePoint 2010 - from the inside out!'],
+ 'title': [u'Microsoft SharePoint Foundation 2010 Inside Out']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5718/> (referer: http://it-ebooks.info/book/6192/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3107/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3107/>
+{'subtitle': [u'Master the PhysX 3 Physics Engine and learn how to program your very own physics simulation'],
+ 'title': [u'Learning Physics Modeling with PhysX']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5718/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5718/>
+{'subtitle': [u'API Features and Arduino Projects for Linux Programmers'],
+ 'title': [u'Intel Galileo and Intel Galileo Gen 2']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/8/> (referer: http://it-ebooks.info/tag/programming/page/7/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/8/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2275/> (referer: http://it-ebooks.info/book/51/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2275/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2275/>
+{'subtitle': [u'A guide for Java developers'],
+ 'title': [u'Effective Unit Testing']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1305/> (referer: http://it-ebooks.info/book/2326/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1147/> (referer: http://it-ebooks.info/book/2879/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1161/> (referer: http://it-ebooks.info/book/2326/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1305/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1305/>
+{'subtitle': [], 'title': [u'Beginning Android Games, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1147/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1147/>
+{'subtitle': [], 'title': [u'Introducing .NET 4.5, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1161/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1161/>
+{'subtitle': [], 'title': [u'Beginning Database Design']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3793/> (referer: http://it-ebooks.info/book/2200/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3659/> (referer: http://it-ebooks.info/book/2323/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3793/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3793/>
+{'subtitle': [], 'title': [u'Microsoft Visual Basic 2013 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5809/> (referer: http://it-ebooks.info/book/2326/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3659/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3659/>
+{'subtitle': [],
+ 'title': [u'Professional Application Lifecycle Management with Visual Studio 2013']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/953/> (referer: http://it-ebooks.info/book/656/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5809/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5809/>
+{'subtitle': [u'Make the most of the new video and audio standards for the Web'],
+ 'title': [u'Beginning HTML5 Media, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/953/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/953/>
+{'subtitle': [u'Add gesture and posture recognition to your applications'],
+ 'title': [u'Programming with the Kinect for Windows Software Development Kit']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6/> (referer: http://it-ebooks.info/book/656/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6/>
+{'subtitle': [u'Develop with Objective-C and Cocoa'],
+ 'title': [u'Beginning Mac Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5810/> (referer: http://it-ebooks.info/book/1150/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5810/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5810/>
+{'subtitle': [], 'title': [u'Pro HTML5 with Visual Studio 2015']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3685/> (referer: http://it-ebooks.info/book/3702/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3111/> (referer: http://it-ebooks.info/book/3112/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5981/> (referer: http://it-ebooks.info/book/1950/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/669/> (referer: http://it-ebooks.info/book/1950/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3685/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3685/>
+{'subtitle': [u'A Hands-On Guide to Structuring Data for iOS and OS X'],
+ 'title': [u'Learning iCloud Data Management']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3111/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3111/>
+{'subtitle': [u'Conquer Microsoft Word 2010 - from the inside out!'],
+ 'title': [u'Microsoft Word 2010 Inside Out']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5981/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5981/>
+{'subtitle': [u'Explore various approaches to organize and extract useful text from unstructured data using Java'],
+ 'title': [u'Natural Language Processing with Java']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/669/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/669/>
+{'subtitle': [u'Unmatched power for text processing and scripting'],
+ 'title': [u'Programming Perl, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1070/> (referer: http://it-ebooks.info/book/431/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1070/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1070/>
+{'subtitle': [], 'title': [u'Microsoft Access 2010 Step by Step']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3778/> (referer: http://it-ebooks.info/book/2275/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/9/> (referer: http://it-ebooks.info/tag/programming/page/8/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3778/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3778/>
+{'subtitle': [u'Applying Unit Testing, TDD, BDD and Acceptance Testing'],
+ 'title': [u'Testing Python']}
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/9/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3732/> (referer: http://it-ebooks.info/tag/programming/page/8/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3731/> (referer: http://it-ebooks.info/tag/programming/page/8/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3732/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3732/>
+{'subtitle': [], 'title': [u'Programming Microsoft ASP.NET MVC, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3731/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3731/>
+{'subtitle': [], 'title': [u'SignalR Programming in Microsoft ASP.NET']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3537/> (referer: http://it-ebooks.info/book/3659/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3794/> (referer: http://it-ebooks.info/book/3793/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2987/> (referer: http://it-ebooks.info/book/5718/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3537/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3537/>
+{'subtitle': [u'Over 50 simple but incredibly effective recipes to get you up and running with the powerful features of Visual Studio 2013'],
+ 'title': [u'Visual Studio 2013 Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3794/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3794/>
+{'subtitle': [], 'title': [u'Microsoft Visual C# 2013 Step by Step']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2987/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2987/>
+{'subtitle': [u'The Guide for Application Developers'],
+ 'title': [u'Intel Xeon Phi Coprocessor Architecture and Tools']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/278/> (referer: http://it-ebooks.info/book/1161/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1578/> (referer: http://it-ebooks.info/book/953/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1464/> (referer: http://it-ebooks.info/book/1161/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/278/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/278/>
+{'subtitle': [],
+ 'title': [u'Access Database Design & Programming, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1578/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1578/>
+{'subtitle': [], 'title': [u'Kinect for Windows SDK Programming Guide']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1464/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1464/>
+{'subtitle': [], 'title': [u'Beginning Database Design Solutions']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2261/> (referer: http://it-ebooks.info/book/5809/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5617/> (referer: http://it-ebooks.info/book/1305/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2261/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2261/>
+{'subtitle': [u'Native Interactivity and Animation for the Web'],
+ 'title': [u'HTML5 Canvas, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5617/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5617/>
+{'subtitle': [], 'title': [u'Pro Android Games, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/916/> (referer: http://it-ebooks.info/book/669/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/916/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/916/>
+{'subtitle': [], 'title': [u'The C# Programming Language, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3663/> (referer: http://it-ebooks.info/book/6/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/261/> (referer: http://it-ebooks.info/book/5981/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3663/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3663/>
+{'subtitle': [u'Building and Deploying iOS Applications'],
+ 'title': [u'Beginning iOS Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/10/> (referer: http://it-ebooks.info/tag/programming/page/9/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/261/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/261/>
+{'subtitle': [u'Analyzing Text with the Natural Language Toolkit'],
+ 'title': [u'Natural Language Processing with Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/614/> (referer: http://it-ebooks.info/book/669/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1474/> (referer: http://it-ebooks.info/book/6/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/10/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/614/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/614/>
+{'subtitle': [u'Powerful Object-Oriented Programming'],
+ 'title': [u'Programming Python, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3528/> (referer: http://it-ebooks.info/tag/programming/page/9/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1474/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1474/>
+{'subtitle': [], 'title': [u'Beginning Arduino Programming']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3528/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3528/>
+{'subtitle': [u'Robust Web Architecture with Node, HTML5, and Modern JS Libraries'],
+ 'title': [u'Programming JavaScript Applications']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/293/> (referer: http://it-ebooks.info/book/1147/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3557/> (referer: http://it-ebooks.info/tag/programming/page/9/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3548/> (referer: http://it-ebooks.info/tag/programming/page/9/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/293/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/293/>
+{'subtitle': [u'Build Web Applications with ASP.NET 3.5, AJAX, LINQ, and More'],
+ 'title': [u'Learning ASP.NET 3.5, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3557/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3557/>
+{'subtitle': [u'Discover the advantages of programming in D with over 100 incredibly effective recipes'],
+ 'title': [u'D Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3548/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3548/>
+{'subtitle': [u'Learn GameMaker Language programming concepts and script integration with GameMaker: Studio through hands-on, playable examples'],
+ 'title': [u'GameMaker Game Programming with GML']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2685/> (referer: http://it-ebooks.info/book/2987/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4274/> (referer: http://it-ebooks.info/book/2987/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2685/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2685/>
+{'subtitle': [u'Tools for the Practitioner'],
+ 'title': [u'Real-Time Systems Design and Analysis, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3583/> (referer: http://it-ebooks.info/tag/programming/page/9/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4274/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4274/>
+{'subtitle': [],
+ 'title': [u'Optimizing HPC Applications with Intel Cluster Tools']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3583/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3583/>
+{'subtitle': [], 'title': [u'Beginning iOS Programming For Dummies']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3203/> (referer: http://it-ebooks.info/book/1578/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/109/> (referer: http://it-ebooks.info/book/2987/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3203/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3203/>
+{'subtitle': [u'Master the Lua programming language and build exciting strategy-based games in 2D using the LOVE framework'],
+ 'title': [u'LOVE for Lua Game Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6023/> (referer: http://it-ebooks.info/book/2261/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1913/> (referer: http://it-ebooks.info/book/1578/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/109/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/109/>
+{'subtitle': [u'100 Industrial-Strength Tips and Tools'],
+ 'title': [u'Linux Server Hacks']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3844/> (referer: http://it-ebooks.info/book/5617/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6023/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6023/>
+{'subtitle': [u'Make the most of HTML5 techniques to create exciting games from scratch'],
+ 'title': [u'HTML5 Game Development by Example, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3842/> (referer: http://it-ebooks.info/book/5617/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1913/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1913/>
+{'subtitle': [], 'title': [u"iOS SDK Programming: A Beginner's Guide"]}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3844/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3844/>
+{'subtitle': [u'A Problem-Solution Approach'],
+ 'title': [u'Android Recipes, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/508/> (referer: http://it-ebooks.info/book/3663/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3842/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3842/>
+{'subtitle': [], 'title': [u'Learn Java for Android Development, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/508/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/508/>
+{'subtitle': [u'Exploring the iOS SDK'],
+ 'title': [u'Beginning iOS 5 Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1322/> (referer: http://it-ebooks.info/book/3663/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2988/> (referer: http://it-ebooks.info/book/1474/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1322/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1322/>
+{'subtitle': [u'Using the iOS SDK for iPad, iPhone and iPod touch'],
+ 'title': [u'Beginning iOS 5 Games Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2383/> (referer: http://it-ebooks.info/book/2261/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2988/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2988/>
+{'subtitle': [], 'title': [u'Beginning Arduino, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/304/> (referer: http://it-ebooks.info/book/614/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2383/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2383/>
+{'subtitle': [u'Over 80 recipes to revolutionize the web experience with HTML5 Canvas'],
+ 'title': [u'HTML5 Canvas Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/11/> (referer: http://it-ebooks.info/tag/programming/page/10/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3200/> (referer: http://it-ebooks.info/tag/programming/page/10/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/304/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/304/>
+{'subtitle': [u'Powerful Object-Oriented Programming'],
+ 'title': [u'Learning Python, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/960/> (referer: http://it-ebooks.info/book/293/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/11/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3200/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3200/>
+{'subtitle': [u'Covers Versions Through Oracle Database 12c'],
+ 'title': [u'Oracle PL/SQL Programming, 6th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1274/> (referer: http://it-ebooks.info/book/293/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/960/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/960/>
+{'subtitle': [u'Developing Real-World Web Applications with ASP.NET MVC'],
+ 'title': [u'Programming ASP.NET MVC 4']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1274/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1274/>
+{'subtitle': [], 'title': [u'Ultra-Fast ASP.NET 4.5, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5974/> (referer: http://it-ebooks.info/book/4274/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5974/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5974/>
+{'subtitle': [u'Use Python and Flask to build amazing web applications, just the way you want them!'],
+ 'title': [u'Building Web Applications with Flask']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3620/> (referer: http://it-ebooks.info/book/2685/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3620/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3620/>
+{'subtitle': [u'Use Storm design patterns to perform distributed, real-time big data processing, and analytics for real-world use cases'],
+ 'title': [u'Storm Blueprints: Patterns for Distributed Real-time Computation']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3108/> (referer: http://it-ebooks.info/book/3203/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3108/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3108/>
+{'subtitle': [u'Discover how you can augment your game development with the power of UnrealScript'],
+ 'title': [u'UnrealScript Game Programming Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4385/> (referer: http://it-ebooks.info/book/109/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1556/> (referer: http://it-ebooks.info/book/3203/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/654/> (referer: http://it-ebooks.info/book/508/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1893/> (referer: http://it-ebooks.info/book/6023/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4385/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4385/>
+{'subtitle': [],
+ 'title': [u'The Definitive Guide to SUSE Linux Enterprise Server 12']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1556/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1556/>
+{'subtitle': [], 'title': [u'Learn Lua for iOS Game Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/654/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/654/>
+{'subtitle': [],
+ 'title': [u'Beginning iOS Application Development with HTML and JavaScript']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1554/> (referer: http://it-ebooks.info/book/3844/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1893/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1893/>
+{'subtitle': [u'Build 10 classic Flash games and learn game development along the way'],
+ 'title': [u'Flash Game Development by Example']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1554/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1554/>
+{'subtitle': [u'A Problem-Solution Approach'],
+ 'title': [u'Android Recipes, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3901/> (referer: http://it-ebooks.info/book/508/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5962/> (referer: http://it-ebooks.info/book/4274/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5678/> (referer: http://it-ebooks.info/book/2988/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/405/> (referer: http://it-ebooks.info/book/304/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3901/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3901/>
+{'subtitle': [u'Exploring the iOS SDK'],
+ 'title': [u'Beginning iOS 7 Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5962/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5962/>
+{'subtitle': [u'Master the art of building, deploying, and optimizing faster web applications with JavaScript'],
+ 'title': [u'Mastering JavaScript High Performance']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/560/> (referer: http://it-ebooks.info/book/2383/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5678/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5678/>
+{'subtitle': [], 'title': [u'Beginning Scala, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/405/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/405/>
+{'subtitle': [],
+ 'title': [u'Build Your Own Database Driven Web Site Using PHP & MySQL, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5710/> (referer: http://it-ebooks.info/book/1322/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/560/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/560/>
+{'subtitle': [u'with HTML5 canvas, jQuery, and More'],
+ 'title': [u'Supercharged JavaScript Graphics']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5710/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5710/>
+{'subtitle': [], 'title': [u'Beginning Swift Games Development for iOS']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2576/> (referer: http://it-ebooks.info/book/304/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2576/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2576/>
+{'subtitle': [u'Powerful Object-Oriented Programming'],
+ 'title': [u'Learning Python, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/12/> (referer: http://it-ebooks.info/tag/programming/page/11/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/12/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3003/> (referer: http://it-ebooks.info/book/1274/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3003/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3003/>
+{'subtitle': [], 'title': [u'Fast ASP.NET Websites']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/861/> (referer: http://it-ebooks.info/book/5974/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6029/> (referer: http://it-ebooks.info/book/3108/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3567/> (referer: http://it-ebooks.info/book/3620/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2724/> (referer: http://it-ebooks.info/book/3620/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/861/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/861/>
+{'subtitle': [u'Add Interactivity and Motion to Your Web Applications'],
+ 'title': [u'Building Web Applications with SVG']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6029/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6029/>
+{'subtitle': [u'Simple Solutions for Game Development Problems'],
+ 'title': [u'iOS Swift Game Development Cookbook, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6058/> (referer: http://it-ebooks.info/book/5974/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3567/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3567/>
+{'subtitle': [u'Use SignalR to create real-time, bidirectional, and asynchronous applications based on standard web technologies'],
+ 'title': [u'SignalR Real-time Application Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3824/> (referer: http://it-ebooks.info/book/654/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2724/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2724/>
+{'subtitle': [u'Build modern real-time web applications powered by Socket.IO'],
+ 'title': [u'Socket.IO Real-time Web Application Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6058/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6058/>
+{'subtitle': [u'Develop exciting real-world Python-based web applications with Neo4j using frameworks such as Flask, Py2neo, and Django'],
+ 'title': [u'Building Web Applications with Python and Neo4j']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3824/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3824/>
+{'subtitle': [u'Learn the key concepts of developing Windows Store apps using HTML5 and JavaScript'],
+ 'title': [u'Developing Windows Store Apps with HTML5 and JavaScript']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2597/> (referer: http://it-ebooks.info/book/5974/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2597/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2597/>
+{'subtitle': [u'Recipes from the Community for Building Web Applications with Scala'],
+ 'title': [u'Lift Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5673/> (referer: http://it-ebooks.info/book/1554/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5677/> (referer: http://it-ebooks.info/book/654/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5673/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5673/>
+{'subtitle': [u'A Problem-Solution Approach'],
+ 'title': [u'Hibernate Recipes, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/997/> (referer: http://it-ebooks.info/book/5710/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5677/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5677/>
+{'subtitle': [u'For SharePoint 2013 and SharePoint Online'],
+ 'title': [u'Custom SharePoint Solutions with HTML and JavaScript']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3025/> (referer: http://it-ebooks.info/book/654/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/997/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/997/>
+{'subtitle': [u'Game Development for iOS'], 'title': [u'Learn cocos2d 2']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3146/> (referer: http://it-ebooks.info/book/1556/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3025/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3025/>
+{'subtitle': [u'HTML and JavaScript Edition'],
+ 'title': [u'Beginning Windows Store Application Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3513/> (referer: http://it-ebooks.info/book/5962/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3146/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3146/>
+{'subtitle': [], 'title': [u'Learn Unity for 2D Game Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4511/> (referer: http://it-ebooks.info/book/405/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3513/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3513/>
+{'subtitle': [u'Boost the performance of Solr instances and troubleshoot real-time problems'],
+ 'title': [u'Apache Solr High Performance']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4511/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4511/>
+{'subtitle': [u'Using C# & VB'],
+ 'title': [u'Build Your Own ASP.NET 4 Web Site Using C# & VB, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6173/> (referer: http://it-ebooks.info/book/2576/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6173/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6173/>
+{'subtitle': [u'Create responsive cross-platform UI/UX applications and games in Python using the open source Kivy library'],
+ 'title': [u'Kivy - Interactive Applications and Games in Python, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3742/> (referer: http://it-ebooks.info/tag/programming/page/12/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3276/> (referer: http://it-ebooks.info/tag/programming/page/12/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3742/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3742/>
+{'subtitle': [u'The Mirror API'], 'title': [u'Programming Google Glass']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/13/> (referer: http://it-ebooks.info/tag/programming/page/12/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3276/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3276/>
+{'subtitle': [], 'title': [u'Pro Asynchronous Programming with .NET']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5667/> (referer: http://it-ebooks.info/book/6029/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2949/> (referer: http://it-ebooks.info/book/3567/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/13/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5667/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5667/>
+{'subtitle': [u'Over 50 hands-on recipes that leverage the features of Unity to help you create 2D games and game prototypes'],
+ 'title': [u'Unity 2D Game Development Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3743/> (referer: http://it-ebooks.info/tag/programming/page/12/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2949/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2949/>
+{'subtitle': [u'Utilize real-time functionality in your .NET applications with ease'],
+ 'title': [u'SignalR: Real-time Application Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3752/> (referer: http://it-ebooks.info/tag/programming/page/12/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3743/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3743/>
+{'subtitle': [u'Write Lean Programs for the JVM'],
+ 'title': [u'Functional Programming Patterns in Scala and Clojure']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3752/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3752/>
+{'subtitle': [u'Software for a Concurrent World'],
+ 'title': [u'Programming Erlang, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5665/> (referer: http://it-ebooks.info/book/2597/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2782/> (referer: http://it-ebooks.info/book/3824/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5665/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5665/>
+{'subtitle': [u'Computer expert or enthusiast, this cookbook will help you use your Raspberry Pi to enhance your existing network. From sharing media across devices to deploying your own web portal, you\u2019ll be amaze'],
+ 'title': [u'Raspberry Pi Networking Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2782/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2782/>
+{'subtitle': [u'A practical guide to developing Windows Store apps with C++ and XAML'],
+ 'title': [u'Mastering Windows 8 C++ App Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5798/> (referer: http://it-ebooks.info/book/5677/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4772/> (referer: http://it-ebooks.info/book/997/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/990/> (referer: http://it-ebooks.info/book/3025/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1808/> (referer: http://it-ebooks.info/book/2597/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5798/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5798/>
+{'subtitle': [], 'title': [u'Advanced Game Design with HTML5 and JavaScript']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4772/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4772/>
+{'subtitle': [u'Learn to create robust and engaging cross-platform HTML5 games using Cocos2D-JS'],
+ 'title': [u'Learning Cocos2d-JS Game Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/990/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/990/>
+{'subtitle': [],
+ 'title': [u'Beginning Windows Phone 7 Development, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1808/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1808/>
+{'subtitle': [u'Get to know the Lift web framework quickly and efficiently using practical, hands-on recipes'],
+ 'title': [u'Lift Web Applications How-to']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3728/> (referer: http://it-ebooks.info/book/3146/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4355/> (referer: http://it-ebooks.info/book/4511/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3728/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3728/>
+{'subtitle': [], 'title': [u'Pro Unity Game Development with C#']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4355/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4355/>
+{'subtitle': [u'Get started with Kendo UI Mobile and learn how to integrate it with HTTP-based services built using ASP.NET Web API'],
+ 'title': [u'Building Mobile Applications Using Kendo UI Mobile and ASP.NET Web API']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3703/> (referer: http://it-ebooks.info/book/6173/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2467/> (referer: http://it-ebooks.info/book/6173/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4905/> (referer: http://it-ebooks.info/book/3513/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4839/> (referer: http://it-ebooks.info/book/6173/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3703/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3703/>
+{'subtitle': [u'Create cross-platform UI/UX applications and games in Python'],
+ 'title': [u'Kivy: Interactive Applications in Python']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2467/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2467/>
+{'subtitle': [], 'title': [u'Data Structures and Algorithms in Python']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4905/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4905/>
+{'subtitle': [u'Leverage the power of Apache Solr to create efficient search applications'],
+ 'title': [u'Apache Solr Essentials']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4839/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4839/>
+{'subtitle': [], 'title': [u'PowerShell in Depth, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/340/> (referer: http://it-ebooks.info/book/5673/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2720/> (referer: http://it-ebooks.info/book/2949/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/340/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/340/>
+{'subtitle': [u'Tips and Techniques for Everyday Use'],
+ 'title': [u'Linux Cookbook, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2720/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2720/>
+{'subtitle': [u'A step-by-step practical introduction to HTML5 through the building of a real-world application, including common development practices'],
+ 'title': [u'HTML5 Enterprise Application Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1816/> (referer: http://it-ebooks.info/book/3513/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3137/> (referer: http://it-ebooks.info/tag/programming/page/13/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3099/> (referer: http://it-ebooks.info/tag/programming/page/13/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1816/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1816/>
+{'subtitle': [u'Over 100 recipes to make Apache Solr faster, more reliable, and return better results'],
+ 'title': [u'Apache Solr 4 Cookbook']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3137/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3137/>
+{'subtitle': [u'Developing Networked Applications'],
+ 'title': [u'Java Network Programming, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3099/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3099/>
+{'subtitle': [], 'title': [u'Functional Programming in Scala']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3138/> (referer: http://it-ebooks.info/tag/programming/page/13/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1976/> (referer: http://it-ebooks.info/book/2782/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/14/> (referer: http://it-ebooks.info/tag/programming/page/13/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3138/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3138/>
+{'subtitle': [u'Dive Deep Into Views, View Controllers, and Frameworks'],
+ 'title': [u'Programming iOS 7, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1976/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1976/>
+{'subtitle': [], 'title': [u'CSS for Windows 8 App Development']}
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/14/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2188/> (referer: http://it-ebooks.info/book/1808/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2566/> (referer: http://it-ebooks.info/book/4355/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2188/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2188/>
+{'subtitle': [u"A hands-on introduction to building websites with Twitter Bootstrap's powerful front-end development framework"],
+ 'title': [u'Twitter Bootstrap Web Development How-To']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2797/> (referer: http://it-ebooks.info/book/2782/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2566/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2566/>
+{'subtitle': [], 'title': [u'Windows Azure and ASP.NET MVC Migration']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3176/> (referer: http://it-ebooks.info/tag/programming/page/13/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2797/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2797/>
+{'subtitle': [u'Create Great Windows Store Apps'],
+ 'title': [u'Real World Windows 8 App Development with JavaScript']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2032/> (referer: http://it-ebooks.info/book/1808/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3176/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3176/>
+{'subtitle': [u'Using AWS Services to Build an End-to-End Application'],
+ 'title': [u'Programming Elastic MapReduce']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2328/> (referer: http://it-ebooks.info/book/4355/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2032/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2032/>
+{'subtitle': [u'Your first step in creating amazing web applications'],
+ 'title': [u'Ember.js Application Development How-to']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1109/> (referer: http://it-ebooks.info/book/4355/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2848/> (referer: http://it-ebooks.info/book/3728/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2328/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2328/>
+{'subtitle': [u'Securing ASP.NET Web API'],
+ 'title': [u'Pro ASP.NET Web API Security']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1109/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1109/>
+{'subtitle': [],
+ 'title': [u'Building ASP.NET Web Pages with Microsoft WebMatrix']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2848/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2848/>
+{'subtitle': [u"Experience a captivating journey that will take you from creating a full-on shoot 'em up to your first social web browser game"],
+ 'title': [u'HTML5 Game Development with GameMaker']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2439/> (referer: http://it-ebooks.info/book/4839/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1447/> (referer: http://it-ebooks.info/book/4839/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2439/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2439/>
+{'subtitle': [], 'title': [u'C# in Depth, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1447/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1447/>
+{'subtitle': [], 'title': [u'Windows PowerShell in Action, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2250/> (referer: http://it-ebooks.info/book/340/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2250/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2250/>
+{'subtitle': [u'Recipes from the Python Community'],
+ 'title': [u'Python Cookbook, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3294/> (referer: http://it-ebooks.info/book/2467/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4478/> (referer: http://it-ebooks.info/book/2467/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3874/> (referer: http://it-ebooks.info/book/2720/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3294/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3294/>
+{'subtitle': [u'Bringing classic computing approaches to the Web'],
+ 'title': [u'Data Structures and Algorithms with JavaScript']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4478/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4478/>
+{'subtitle': [u'International Student Version'],
+ 'title': [u'Data Structures and Algorithms in Java, 6th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3874/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3874/>
+{'subtitle': [u'Successfully plan, develop, test, and deploy enterprise applications with Oracle ADF'],
+ 'title': [u'Oracle ADF Enterprise Application Development - Made Simple: 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2249/> (referer: http://it-ebooks.info/book/340/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5761/> (referer: http://it-ebooks.info/book/4905/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2889/> (referer: http://it-ebooks.info/tag/programming/page/14/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2249/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2249/>
+{'subtitle': [u'Solutions and Examples for Java Developers'],
+ 'title': [u'Java Cookbook, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5761/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5761/>
+{'subtitle': [u'Leverage the power of Apache Solr to power up your business by navigating your users to their data quickly and efficiently'],
+ 'title': [u'Apache Solr Search Patterns']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2889/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2889/>
+{'subtitle': [u'A Practical Guide to Coding for Platform-as-a-Service'],
+ 'title': [u'Programming for PaaS']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4849/> (referer: http://it-ebooks.info/book/2188/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4849/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4849/>
+{'subtitle': [u'Master real-time MEAN web application development and learn how to construct a MEAN application using a combination of MongoDB, Express, AngularJS, and Node.js'],
+ 'title': [u'MEAN Web Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/15/> (referer: http://it-ebooks.info/tag/programming/page/14/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3252/> (referer: http://it-ebooks.info/book/2566/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5991/> (referer: http://it-ebooks.info/book/2797/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/15/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3252/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3252/>
+{'subtitle': [u'Using jQuery 2 with ASP.NET Web Forms and ASP.NET MVC'],
+ 'title': [u'Beginning jQuery 2 for ASP.NET Developers']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5991/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5991/>
+{'subtitle': [],
+ 'title': [u'Beginning App Development with Parse and PhoneGap']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2389/> (referer: http://it-ebooks.info/book/2797/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2784/> (referer: http://it-ebooks.info/book/2848/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2389/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2389/>
+{'subtitle': [], 'title': [u'Real World Windows 8 Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2784/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2784/>
+{'subtitle': [u'A step-by-step guide to developing your own 2D games'],
+ 'title': [u'HTML5 Game Development with ImpactJS']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1751/> (referer: http://it-ebooks.info/book/1109/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6124/> (referer: http://it-ebooks.info/book/2032/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1751/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1751/>
+{'subtitle': [], 'title': [u'Beginning ASP.NET Web Pages with WebMatrix']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6124/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6124/>
+{'subtitle': [u'Build ambitious single-page web applications using the power of Ember.js and Ember CLI'],
+ 'title': [u'Ember.js Web Development with Ember CLI']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3814/> (referer: http://it-ebooks.info/book/2250/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3814/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3814/>
+{'subtitle': [u'Mastering Basic Algorithms in the Python Language'],
+ 'title': [u'Python Algorithms, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2202/> (referer: http://it-ebooks.info/book/2797/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3783/> (referer: http://it-ebooks.info/book/1447/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2902/> (referer: http://it-ebooks.info/book/3874/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2112/> (referer: http://it-ebooks.info/book/1447/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2202/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2202/>
+{'subtitle': [u'Windows Application Development with Microsoft .NET Framework 4'],
+ 'title': [u'MCTS Self-Paced Training Kit (Exam 70-511)']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3783/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3783/>
+{'subtitle': [], 'title': [u'Mule in Action, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2902/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2902/>
+{'subtitle': [u'Experience the easiest way to learn, understand, and implement rich Internet applications using Oracle ADF 11gR2'],
+ 'title': [u"Oracle ADF 11gR2 Development Beginner's Guide"]}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2112/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2112/>
+{'subtitle': [], 'title': [u'Lucene in Action, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2422/> (referer: http://it-ebooks.info/book/3874/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2422/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2422/>
+{'subtitle': [],
+ 'title': [u'Android Application Development For Dummies, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6189/> (referer: http://it-ebooks.info/book/5761/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2308/> (referer: http://it-ebooks.info/book/3294/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6189/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6189/>
+{'subtitle': [u'Enhance your searches with faceted navigation, result highlighting, relevancy-ranked sorting, and much more with this comprehensive guide to Apache Solr 4'],
+ 'title': [u'Apache Solr Enterprise Search Server, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2308/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2308/>
+{'subtitle': [u'Essential Information about Algorithms and Data Structures'],
+ 'title': [u'Algorithms, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/585/> (referer: http://it-ebooks.info/book/5991/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3648/> (referer: http://it-ebooks.info/book/2328/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/585/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/585/>
+{'subtitle': [u'for iPhone, iPad, and iPod touch'],
+ 'title': [u'Beginning iOS Apps with Facebook and Twitter APIs']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3648/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3648/>
+{'subtitle': [u'Building a REST Service from Start to Finish'],
+ 'title': [u'ASP.NET Web API 2, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2470/> (referer: http://it-ebooks.info/book/5991/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2942/> (referer: http://it-ebooks.info/book/4849/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2182/> (referer: http://it-ebooks.info/book/4849/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2470/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2470/>
+{'subtitle': [u'From Novice to Professional'],
+ 'title': [u'Beginning Game Development with Python and Pygame']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2942/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2942/>
+{'subtitle': [u'Harness the cutting-edge features of Dreamweaver for mobile and web development'],
+ 'title': [u'Dreamweaver CS6 Mobile and Web Development with HTML5, CSS3, and jQuery Mobile']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3826/> (referer: http://it-ebooks.info/book/2389/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2182/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2182/>
+{'subtitle': [u'Master HTML5 Boilerplate web development with a robust set of templates to get your web projects done quickly and effectively'],
+ 'title': [u'HTML5 Boilerplate Web Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/438/> (referer: http://it-ebooks.info/book/2389/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3826/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3826/>
+{'subtitle': [u'Design and develop real-world, cutting-edge cloud applications using the powerful Force.com development framework'],
+ 'title': [u'Force.com Development Blueprints']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/438/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/438/>
+{'subtitle': [u'Applying Best Practices, Proven Methods, and Real-World Techniques with Microsoft Project'],
+ 'title': [u'Successful Project Management: Applying Best Practices and Real-World Techniques with Microsoft Project']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3748/> (referer: http://it-ebooks.info/book/6124/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1608/> (referer: http://it-ebooks.info/book/3814/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3748/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3748/>
+{'subtitle': [u'Build Bulletproof Web Apps with Less Code'],
+ 'title': [u'Web Development with Clojure']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3010/> (referer: http://it-ebooks.info/book/2439/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1608/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1608/>
+{'subtitle': [],
+ 'title': [u'An Introduction to the Analysis of Algorithms, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1275/> (referer: http://it-ebooks.info/book/3814/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3010/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3010/>
+{'subtitle': [], 'title': [u'C# in Depth, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1275/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1275/>
+{'subtitle': [u'A Complete Introduction to the Python Language'],
+ 'title': [u'Programming in Python 3, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1127/> (referer: http://it-ebooks.info/book/2902/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1127/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1127/>
+{'subtitle': [u"Beginner's Guide"], 'title': [u'OSGi and Apache Felix 3.0']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/92/> (referer: http://it-ebooks.info/book/3252/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/92/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/92/>
+{'subtitle': [],
+ 'title': [u'Professional Silverlight 2 for ASP.NET Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1863/> (referer: http://it-ebooks.info/book/2202/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/579/> (referer: http://it-ebooks.info/book/2308/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3784/> (referer: http://it-ebooks.info/book/3783/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1863/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1863/>
+{'subtitle': [u'MCTS Self-Paced Training Kit'],
+ 'title': [u'Exam 70-516: Accessing Data with Microsoft .NET Framework 4']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/579/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/579/>
+{'subtitle': [u'Visual Presentation for the Web'],
+ 'title': [u'CSS Pocket Reference, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3784/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3784/>
+{'subtitle': [], 'title': [u'EJB 3 in Action, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/553/> (referer: http://it-ebooks.info/book/2202/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1017/> (referer: http://it-ebooks.info/book/2202/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/553/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/553/>
+{'subtitle': [],
+ 'title': [u'MCTS Self-Paced Training Kit (Exam 70-642): Configuring Windows Server 2008 Network Infrastructure, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1017/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1017/>
+{'subtitle': [u'MCTS Self-Paced Training Kit (Exam 70-561)'],
+ 'title': [u'Microsoft .NET Framework 3.5 - ADO.NET Application Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1249/> (referer: http://it-ebooks.info/book/2942/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4446/> (referer: http://it-ebooks.info/book/2942/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1657/> (referer: http://it-ebooks.info/book/6189/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1324/> (referer: http://it-ebooks.info/book/3252/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1249/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1249/>
+{'subtitle': [],
+ 'title': [u'Dreamweaver CS5.5 Mobile and Web Development with HTML5, CSS3, and jQuery']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4446/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4446/>
+{'subtitle': [u'Multi-Device Web Development with HTML5, CSS3, and JavaScript'],
+ 'title': [u'The Modern Web']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1657/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1657/>
+{'subtitle': [], 'title': [u'Apache Solr 3 Enterprise Search Server']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1324/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1324/>
+{'subtitle': [], 'title': [u'HTML5 Programming for ASP.NET Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3049/> (referer: http://it-ebooks.info/book/438/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3263/> (referer: http://it-ebooks.info/book/438/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/16/> (referer: http://it-ebooks.info/tag/programming/page/15/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3049/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3049/>
+{'subtitle': [],
+ 'title': [u'SharePoint 2013 Branding and User Interface Design']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3263/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3263/>
+{'subtitle': [u'Secure and efficient functioning of your DirectAccess environment'],
+ 'title': [u'Microsoft DirectAccess Best Practices and Troubleshooting']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6063/> (referer: http://it-ebooks.info/book/3748/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/16/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2624/> (referer: http://it-ebooks.info/book/1608/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6063/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6063/>
+{'subtitle': [u"From idea to prototype, a learner's guide for web development with the Django application framework"],
+ 'title': [u'Learning Django Web Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1169/> (referer: http://it-ebooks.info/book/3010/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1444/> (referer: http://it-ebooks.info/book/1127/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2624/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2624/>
+{'subtitle': [u'The Art of Exploitation'], 'title': [u'Hacking, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1169/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1169/>
+{'subtitle': [], 'title': [u'Android in Action, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1444/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1444/>
+{'subtitle': [],
+ 'title': [u'Sams Teach Yourself PHP, MySQL and Apache All in One, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3004/> (referer: http://it-ebooks.info/book/1127/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/41/> (referer: http://it-ebooks.info/book/1127/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3004/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3004/>
+{'subtitle': [], 'title': [u'CMIS and Apache Chemistry in Action']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/41/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/41/>
+{'subtitle': [u'Creating Flexible Applications with OSGi and Spring'],
+ 'title': [u'Modular Java']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/228/> (referer: http://it-ebooks.info/book/579/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1666/> (referer: http://it-ebooks.info/book/553/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/228/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/228/>
+{'subtitle': [u"A Guide to Oracle's PL/SQL Language Fundamentals"],
+ 'title': [u'Oracle PL/SQL Language Pocket Reference, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1979/> (referer: http://it-ebooks.info/book/579/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1666/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1666/>
+{'subtitle': [u'Self-Paced Training Kit'],
+ 'title': [u'Exam 70-640: Configuring Windows Server 2008 Active Directory, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/125/> (referer: http://it-ebooks.info/book/579/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1979/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1979/>
+{'subtitle': [u'Quick, Comprehensive, Indispensible'],
+ 'title': [u'HTML & XHTML Pocket Reference, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/125/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/125/>
+{'subtitle': [], 'title': [u'XML Pocket Reference, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1719/> (referer: http://it-ebooks.info/book/1608/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6035/> (referer: http://it-ebooks.info/book/4446/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1719/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1719/>
+{'subtitle': [u'A No-Nonsense Guide to the OpenBSD Firewall'],
+ 'title': [u'The Book of PF, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6035/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6035/>
+{'subtitle': [u'Collecting Data from the Modern Web'],
+ 'title': [u'Web Scraping with Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2268/> (referer: http://it-ebooks.info/book/4446/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1515/> (referer: http://it-ebooks.info/book/4446/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1048/> (referer: http://it-ebooks.info/book/3826/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2268/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2268/>
+{'subtitle': [u'APIs for the Modern Web'], 'title': [u'PHP Web Services']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1515/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1515/>
+{'subtitle': [u'Develop modern web applications in Meteor, one of the hottest new JavaScript platforms'],
+ 'title': [u'Getting Started with Meteor.js JavaScript Framework']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1048/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1048/>
+{'subtitle': [u'Building Business Applications in the Cloud'],
+ 'title': [u'Development with the Force.com Platform, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2452/> (referer: http://it-ebooks.info/book/1863/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2452/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2452/>
+{'subtitle': [u'MCTS Self-Paced Training Kit'],
+ 'title': [u'Exam 70-515: Web Applications Development with Microsoft .NET Framework 4']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2828/> (referer: http://it-ebooks.info/book/3263/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2828/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2828/>
+{'subtitle': [u'Accentuate Oracle APEX development with proven best practices'],
+ 'title': [u'Oracle APEX Best Practices']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2661/> (referer: http://it-ebooks.info/tag/programming/page/16/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1643/> (referer: http://it-ebooks.info/book/1444/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2665/> (referer: http://it-ebooks.info/tag/programming/page/16/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/17/> (referer: http://it-ebooks.info/tag/programming/page/16/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2661/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2661/>
+{'subtitle': [], 'title': [u'Theories of Programming and Formal Methods']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1643/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1643/>
+{'subtitle': [],
+ 'title': [u'PHP & MySQL Web Development All-in-One Desk Reference For Dummies']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2665/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2665/>
+{'subtitle': [u'Java 7 Compatible'],
+ 'title': [u'An Introduction to Network Programming with Java, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2416/> (referer: http://it-ebooks.info/book/1444/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/17/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3057/> (referer: http://it-ebooks.info/book/41/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/764/> (referer: http://it-ebooks.info/book/41/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2416/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2416/>
+{'subtitle': [],
+ 'title': [u'HTML, XHTML, and CSS All-in-One Desk Reference For Dummies']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3057/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3057/>
+{'subtitle': [u'Practical Modularity with Java in the Cloud Age'],
+ 'title': [u'Building Modular Cloud Apps with OSGi']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/764/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/764/>
+{'subtitle': [u'Programming Secure Oracle Database Applications With Java'],
+ 'title': [u'Expert Oracle and Java Security']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/369/> (referer: http://it-ebooks.info/book/125/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/705/> (referer: http://it-ebooks.info/book/125/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/369/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/369/>
+{'subtitle': [u'A quick pocket reference for a utility every Unix user needs'],
+ 'title': [u'grep Pocket Reference']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/705/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/705/>
+{'subtitle': [u'Activate Your Web Pages'],
+ 'title': [u'JavaScript Pocket Reference, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1071/> (referer: http://it-ebooks.info/book/1666/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1071/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1071/>
+{'subtitle': [u'Exam Ref 70-410'],
+ 'title': [u'Installing and Configuring Windows Server 2012']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5738/> (referer: http://it-ebooks.info/book/6035/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4297/> (referer: http://it-ebooks.info/book/6035/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5738/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5738/>
+{'subtitle': [u'Build simple scrapers or vast armies of Java-based bots to untangle and capture the Web'],
+ 'title': [u'Instant Web Scraping with Java']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4605/> (referer: http://it-ebooks.info/book/1048/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4297/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4297/>
+{'subtitle': [u'Get up and running with the basic techniques of web scraping using PHP'],
+ 'title': [u'PHP Web Scraping']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4605/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4605/>
+{'subtitle': [u'Building Business Applications in the Cloud'],
+ 'title': [u'Development with the Force.com Platform, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2999/> (referer: http://it-ebooks.info/book/2828/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2999/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2999/>
+{'subtitle': [u'A practical tutorial to learn the best practices for building high performing Liferay-based solutions'],
+ 'title': [u'Liferay Portal Performance Best Practices']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5983/> (referer: http://it-ebooks.info/book/228/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4316/> (referer: http://it-ebooks.info/book/2452/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5983/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5983/>
+{'subtitle': [], 'title': [u'Beginning Oracle PL/SQL, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4316/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4316/>
+{'subtitle': [u'A comprehensive guide to developing production-ready web applications with Express'],
+ 'title': [u'Mastering Web Application Development with Express']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3269/> (referer: http://it-ebooks.info/book/1515/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3269/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3269/>
+{'subtitle': [u'Build scalable, modular JavaScript applications with the Twitter Flight framework'],
+ 'title': [u'Getting Started with Twitter Flight']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3828/> (referer: http://it-ebooks.info/book/1515/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4711/> (referer: http://it-ebooks.info/book/1719/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6059/> (referer: http://it-ebooks.info/book/1515/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3828/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3828/>
+{'subtitle': [u'A hands-on approach to mastering the fundamentals of Grunt'],
+ 'title': [u'Getting Started with Grunt: The JavaScript Task Runner']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4711/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4711/>
+{'subtitle': [u"A Developer's Guide to the Future of Web Design"],
+ 'title': [u'The Book of CSS3, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2417/> (referer: http://it-ebooks.info/book/1643/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6059/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6059/>
+{'subtitle': [u'Learn to develop powerful web applications in minutes with Meteor'],
+ 'title': [u'Getting Started with Meteor.js JavaScript Framework, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2417/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2417/>
+{'subtitle': [], 'title': [u'Macs All-in-One Desk Reference For Dummies']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/18/> (referer: http://it-ebooks.info/tag/programming/page/17/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/18/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2443/> (referer: http://it-ebooks.info/tag/programming/page/17/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4347/> (referer: http://it-ebooks.info/book/764/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2443/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2443/>
+{'subtitle': [u'Practical Aspect-Oriented Programming'],
+ 'title': [u'AOP in .NET']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4347/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4347/>
+{'subtitle': [],
+ 'title': [u'Expert Oracle RAC Performance Diagnostics and Tuning']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3724/> (referer: http://it-ebooks.info/book/764/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/188/> (referer: http://it-ebooks.info/book/705/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3724/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3724/>
+{'subtitle': [u'Optimization, Deployment, and Statistics'],
+ 'title': [u'Expert Oracle SQL']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/412/> (referer: http://it-ebooks.info/book/4297/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2347/> (referer: http://it-ebooks.info/book/1071/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2348/> (referer: http://it-ebooks.info/book/1071/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/188/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/188/>
+{'subtitle': [u'Regular Expressions for Perl, Ruby, PHP, Python, C, Java and .NET'],
+ 'title': [u'Regular Expression Pocket Reference, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/412/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/412/>
+{'subtitle': [u'Tuning PHP Web Projects for Maximum Performance'],
+ 'title': [u'Pro PHP Application Performance']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2347/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2347/>
+{'subtitle': [],
+ 'title': [u'Training Guide: Installing and Configuring Windows Server 2012']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2348/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2348/>
+{'subtitle': [],
+ 'title': [u'Exam Ref 70-410: Installing and Configuring Windows Server 2012']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1406/> (referer: http://it-ebooks.info/book/2999/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1282/> (referer: http://it-ebooks.info/book/1071/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1406/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1406/>
+{'subtitle': [u'Performance Best Practices for Web Developers'],
+ 'title': [u'Even Faster Web Sites']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1282/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1282/>
+{'subtitle': [u'Upgrading, Installing, and Optimizing Windows Server 2012'],
+ 'title': [u'Windows Server 2012: Up and Running']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3206/> (referer: http://it-ebooks.info/book/4316/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3124/> (referer: http://it-ebooks.info/book/5738/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3206/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3206/>
+{'subtitle': [u'Harness the graphical and statistical power of R and rapidly develop interactive user interfaces using the superb Shiny package'],
+ 'title': [u'Web Application Development with R Using Shiny']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3538/> (referer: http://it-ebooks.info/book/3269/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3896/> (referer: http://it-ebooks.info/book/3269/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3124/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3124/>
+{'subtitle': [u'Enhance your botting skills and create your own web bots with PHP'],
+ 'title': [u'Instant Simple Botting with PHP']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2925/> (referer: http://it-ebooks.info/book/3269/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3538/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3538/>
+{'subtitle': [u'Deliver desktops and applications to your end users, anywhere, anytime, with XenDesktop 7.x'],
+ 'title': [u'Getting Started with XenDesktop 7.x']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3896/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3896/>
+{'subtitle': [u'Build your own web scraper and learn all about web scraping with Beautiful Soup'],
+ 'title': [u'Getting Started with Beautiful Soup']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1733/> (referer: http://it-ebooks.info/book/4711/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2925/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2925/>
+{'subtitle': [u'An in-depth, practical guide to getting your first e-commerce website up and running using nopCommerce'],
+ 'title': [u'Getting Started with nopCommerce']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/300/> (referer: http://it-ebooks.info/book/5983/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1733/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1733/>
+{'subtitle': [u"A Developer's Guide to the Future of Web Design"],
+ 'title': [u'The Book of CSS3']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/300/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/300/>
+{'subtitle': [], 'title': [u'Learning Oracle PL/SQL']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/19/> (referer: http://it-ebooks.info/tag/programming/page/18/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/19/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1903/> (referer: http://it-ebooks.info/tag/programming/page/18/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2932/> (referer: http://it-ebooks.info/book/4347/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/323/> (referer: http://it-ebooks.info/book/412/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1903/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1903/>
+{'subtitle': [], 'title': [u'Excel VBA Programming For Dummies, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/605/> (referer: http://it-ebooks.info/book/3724/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2932/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2932/>
+{'subtitle': [], 'title': [u'Expert Oracle RAC 12c']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/323/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/323/>
+{'subtitle': [u'Help for Programmers and Quality Assurance'],
+ 'title': [u'The Art of Application Performance Testing']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/605/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/605/>
+{'subtitle': [], 'title': [u'Expert Oracle Application Express']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3340/> (referer: http://it-ebooks.info/book/188/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3340/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3340/>
+{'subtitle': [],
+ 'title': [u'Information Security The Complete Reference, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2074/> (referer: http://it-ebooks.info/tag/programming/page/18/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/568/> (referer: http://it-ebooks.info/book/3724/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2074/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2074/>
+{'subtitle': [u'Event-driven Network Programming with Python'],
+ 'title': [u'Twisted Network Programming Essentials, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/568/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/568/>
+{'subtitle': [u'For Oracle Developers and DBAs'],
+ 'title': [u'Expert PL/SQL Practices']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4765/> (referer: http://it-ebooks.info/book/3206/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1054/> (referer: http://it-ebooks.info/book/412/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4765/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4765/>
+{'subtitle': [u'Build powerful and scalable single-page web applications using a full stack JavaScript environment with Node.js, MongoDB, AngularJS, and the Express framework'],
+ 'title': [u'Learning Single-page Web Application Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1054/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1054/>
+{'subtitle': [], 'title': [u'Pro PHP Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1022/> (referer: http://it-ebooks.info/book/1282/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2839/> (referer: http://it-ebooks.info/book/1282/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1022/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1022/>
+{'subtitle': [u'Covers Windows 8 and Windows Server 2012'],
+ 'title': [u'Understanding IPv6, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1513/> (referer: http://it-ebooks.info/book/1282/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2839/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2839/>
+{'subtitle': [u'Over 110 recipes to automate Windows Server administrative tasks by using PowerShell'],
+ 'title': [u'Windows Server 2012 Automation with PowerShell Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2005/> (referer: http://it-ebooks.info/book/1406/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1501/> (referer: http://it-ebooks.info/book/1406/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1513/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1513/>
+{'subtitle': [u"Discover how to seamlessly plan and deploy remote access with Windows Server 2012's successor to DirectAccess"],
+ 'title': [u'Windows Server 2012 Unified Remote Access Planning and Deployment']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2005/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2005/>
+{'subtitle': [], 'title': [u'Creating Web Sites Bible, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1501/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1501/>
+{'subtitle': [u'Quickly Building Web Sites with CCK, Views, and Panels'],
+ 'title': [u"Drupal's Building Blocks"]}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/20/> (referer: http://it-ebooks.info/tag/programming/page/19/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/20/
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3682/> (referer: http://it-ebooks.info/book/3340/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2457/> (referer: http://it-ebooks.info/tag/programming/page/19/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3682/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3682/>
+{'subtitle': [u'The Complete Guide'],
+ 'title': [u'iOS UICollectionView, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2457/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2457/>
+{'subtitle': [],
+ 'title': [u'Programming Windows 8 Apps with HTML, CSS, and JavaScript']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/606/> (referer: http://it-ebooks.info/book/605/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2496/> (referer: http://it-ebooks.info/tag/programming/page/19/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/606/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/606/>
+{'subtitle': [], 'title': [u'Oracle Application Express 4 Recipes']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2496/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2496/>
+{'subtitle': [u'70 fast-track, example-driven recipes with clear instructions and details for OData programming with .NET Framework'],
+ 'title': [u'OData Programming Cookbook for .NET Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1452/> (referer: http://it-ebooks.info/book/3124/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1452/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1452/>
+{'subtitle': [], 'title': [u'Practical Web 2.0 Applications with PHP']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1916/> (referer: http://it-ebooks.info/book/3340/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1916/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1916/>
+{'subtitle': [], 'title': [u'HTML & CSS: The Complete Reference, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2011/> (referer: http://it-ebooks.info/book/1733/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2157/> (referer: http://it-ebooks.info/book/605/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2500/> (referer: http://it-ebooks.info/tag/programming/page/19/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2011/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2011/>
+{'subtitle': [u'The Art of Building Qt Applications'],
+ 'title': [u'The Book of Qt 4']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2157/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2157/>
+{'subtitle': [u'Building Reusable Components'],
+ 'title': [u'Expert Oracle Application Express Plugins']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2500/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2500/>
+{'subtitle': [],
+ 'title': [u'Practical Database Programming with Visual Basic.NET, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2899/> (referer: http://it-ebooks.info/book/323/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2899/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2899/>
+{'subtitle': [], 'title': [u'The Art of Software Testing, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1382/> (referer: http://it-ebooks.info/book/323/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1382/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1382/>
+{'subtitle': [u'The Business of Apple Development'],
+ 'title': [u'The Art of the App Store']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3077/> (referer: http://it-ebooks.info/book/2839/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2493/> (referer: http://it-ebooks.info/book/568/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2327/> (referer: http://it-ebooks.info/book/1054/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3077/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3077/>
+{'subtitle': [u'Technical Overview'],
+ 'title': [u'Introducing Windows Server 2012 R2']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4775/> (referer: http://it-ebooks.info/book/323/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2493/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2493/>
+{'subtitle': [u'Master advanced PL/SQL concepts along with plenty of example questions for 1Z0-146 examination'],
+ 'title': [u'Oracle Advanced PL/SQL Developer Professional Guide']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2327/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2327/>
+{'subtitle': [], 'title': [u'Pro PHP MVC']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/621/> (referer: http://it-ebooks.info/book/1501/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4775/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4775/>
+{'subtitle': [u'From Strategy to Tools'],
+ 'title': [u'The Art of Application Performance Testing, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/621/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/621/>
+{'subtitle': [u'Building Applications for the Android Market'],
+ 'title': [u'Learning Android']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1582/> (referer: http://it-ebooks.info/tag/programming/page/20/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1312/> (referer: http://it-ebooks.info/book/606/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1582/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1582/>
+{'subtitle': [], 'title': [u'Winning LEGO MINDSTORMS Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/684/> (referer: http://it-ebooks.info/book/3682/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/831/> (referer: http://it-ebooks.info/book/1916/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1312/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1312/>
+{'subtitle': [], 'title': [u'Agile Oracle Application Express']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/684/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/684/>
+{'subtitle': [u'Fundamentals of iPhone, iPad, and iPod touch Development'],
+ 'title': [u'Programming iOS 5, 2nd Edition : Covers iOS 5 and Xcode 4.3']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/831/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/831/>
+{'subtitle': [u'The Definitive Reference'],
+ 'title': [u'C# 5.0 in a Nutshell, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1244/> (referer: http://it-ebooks.info/book/3682/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5973/> (referer: http://it-ebooks.info/book/1452/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1244/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1244/>
+{'subtitle': [],
+ 'title': [u'Learn Objective-C on the Mac For OS X and iOS, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5973/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5973/>
+{'subtitle': [u'Build user friendly Web 2.0 Applications with JavaScript and PHP'],
+ 'title': [u'AJAX and PHP, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/580/> (referer: http://it-ebooks.info/book/1916/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/580/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/580/>
+{'subtitle': [], 'title': [u'Perl Pocket Reference, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4341/> (referer: http://it-ebooks.info/book/1382/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/21/> (referer: http://it-ebooks.info/tag/programming/page/20/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/607/> (referer: http://it-ebooks.info/book/606/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4341/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4341/>
+{'subtitle': [u'For iPhone, iPad and iPod touch'],
+ 'title': [u'The Business of iOS App Development, 3rd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1734/> (referer: http://it-ebooks.info/book/1382/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/21/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/607/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/607/>
+{'subtitle': [], 'title': [u'Pro Oracle Application Express 4, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1734/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1734/>
+{'subtitle': [u'A Tour of Statistical Software Design'],
+ 'title': [u'The Art of R Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4421/> (referer: http://it-ebooks.info/book/2899/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1731/> (referer: http://it-ebooks.info/book/2899/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4421/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4421/>
+{'subtitle': [u'with examples in C#'],
+ 'title': [u'The Art of Unit Testing, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3729/> (referer: http://it-ebooks.info/book/3077/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3041/> (referer: http://it-ebooks.info/book/2493/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1731/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1731/>
+{'subtitle': [], 'title': [u'The Art of Assembly Language, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1825/> (referer: http://it-ebooks.info/tag/programming/page/20/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3729/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3729/>
+{'subtitle': [u'Configuration, Storage, & Essentials'],
+ 'title': [u'Windows Server 2012 R2 Inside Out Volume 1']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3041/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3041/>
+{'subtitle': [],
+ 'title': [u'Professional Oracle 8i Application Programming with Java, PL/SQL and XML']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1825/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1825/>
+{'subtitle': [u'A Hands-On Guide to Building Your First Android Game'],
+ 'title': [u'Learning Android Game Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/875/> (referer: http://it-ebooks.info/book/2327/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/875/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/875/>
+{'subtitle': [], 'title': [u'Pro Spring MVC with Web Flow']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1986/> (referer: http://it-ebooks.info/tag/programming/page/20/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1986/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1986/>
+{'subtitle': [u'From Xcode to App Store'],
+ 'title': [u'Learning iOS Programming, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1988/> (referer: http://it-ebooks.info/tag/programming/page/20/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1988/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1988/>
+{'subtitle': [u'Java Programming for the New Generation of Mobile Devices'],
+ 'title': [u'Programming Android, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6075/> (referer: http://it-ebooks.info/book/831/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4371/> (referer: http://it-ebooks.info/book/831/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3061/> (referer: http://it-ebooks.info/book/5973/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2516/> (referer: http://it-ebooks.info/book/580/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6075/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6075/>
+{'subtitle': [u'A Desktop Quick Reference'],
+ 'title': [u'Algorithms in a Nutshell, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5705/> (referer: http://it-ebooks.info/book/1244/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4371/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4371/>
+{'subtitle': [u'A Desktop Quick Reference'],
+ 'title': [u'Java in a Nutshell, 6th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3061/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3061/>
+{'subtitle': [u'Building Responsive Web Applications'],
+ 'title': [u'AJAX and PHP']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2516/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2516/>
+{'subtitle': [u'Quick, Comprehensive, Indispensible'],
+ 'title': [u'HTML5 Pocket Reference, 5th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5705/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5705/>
+{'subtitle': [u'For OS X and iOS'], 'title': [u'Learn Swift on the Mac']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/523/> (referer: http://it-ebooks.info/book/1244/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3178/> (referer: http://it-ebooks.info/book/621/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/523/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/523/>
+{'subtitle': [],
+ 'title': [u'Enterprise Mac Security: Mac OS X Snow Leopard, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3178/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3178/>
+{'subtitle': [u'Develop Mobile Apps Using Java and Eclipse'],
+ 'title': [u'Learning Android, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4872/> (referer: http://it-ebooks.info/book/4341/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/321/> (referer: http://it-ebooks.info/book/1734/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1423/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2360/> (referer: http://it-ebooks.info/book/607/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4872/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4872/>
+{'subtitle': [u'Create exciting iOS games with the power of the new Unreal Engine 4 subsystems'],
+ 'title': [u'Learning Unreal Engine iOS Game Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/22/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1315/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/321/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/321/>
+{'subtitle': [u'Pragmatic guide to agile software development'],
+ 'title': [u'The Art of Agile Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1423/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1423/>
+{'subtitle': [u'Connecting the Enterprise to the iPhone and iPad'],
+ 'title': [u'Professional iOS Network Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1422/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2360/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2360/>
+{'subtitle': [],
+ 'title': [u'Beginning Oracle Application Express 4.2, 2nd Edition']}
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/22/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1315/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1315/>
+{'subtitle': [u'Cross-Platform Mobile Development for Android and iPhone'],
+ 'title': [u'20 Recipes for Programming PhoneGap']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1422/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1422/>
+{'subtitle': [u'Windows Azure and Office 365'],
+ 'title': [u"Programming Microsoft's Clouds"]}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3868/> (referer: http://it-ebooks.info/book/875/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3868/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3868/>
+{'subtitle': [u'DevOps for the AWS Cloud'],
+ 'title': [u'Pro PowerShell for Amazon Web Services']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1437/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/973/> (referer: http://it-ebooks.info/book/6075/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/460/> (referer: http://it-ebooks.info/book/5705/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1437/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1437/>
+{'subtitle': [], 'title': [u'Programming Microsoft SQL Server 2012']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1209/> (referer: http://it-ebooks.info/book/875/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/973/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/973/>
+{'subtitle': [], 'title': [u'MySQL in a Nutshell, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/460/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/460/>
+{'subtitle': [], 'title': [u'Learn Cocoa on the Mac']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4838/> (referer: http://it-ebooks.info/book/875/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1209/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1209/>
+{'subtitle': [], 'title': [u'Pro Spring 3']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1546/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4838/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4838/>
+{'subtitle': [u'Covers Spring 4'], 'title': [u'Spring in Action, 4th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1546/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1546/>
+{'subtitle': [], 'title': [u'Metaprogramming in .NET']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1468/> (referer: http://it-ebooks.info/tag/programming/page/21/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/418/> (referer: http://it-ebooks.info/book/3061/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1468/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1468/>
+{'subtitle': [u'Application Development with C# and XAML'],
+ 'title': [u'Professional Windows 8 Programming']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/418/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/418/>
+{'subtitle': [], 'title': [u'Pro PHP and jQuery']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/6161/> (referer: http://it-ebooks.info/book/3178/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/6161/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/6161/>
+{'subtitle': [u'Computer Vision in C++ with the OpenCV Library'],
+ 'title': [u'Learning OpenCV, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2945/> (referer: http://it-ebooks.info/book/3178/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2945/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2945/>
+{'subtitle': [u'Create web-based, content-rich tools for teaching and learning'],
+ 'title': [u'Drupal for Education and E-Learning, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1562/> (referer: http://it-ebooks.info/book/523/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/336/> (referer: http://it-ebooks.info/book/523/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1562/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1562/>
+{'subtitle': [], 'title': [u'Beginning Mac OS X Snow Leopard Programming']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/642/> (referer: http://it-ebooks.info/book/3061/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/336/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/336/>
+{'subtitle': [u'The Ultimate Quick Guide to Mac OS X'],
+ 'title': [u'Mac OS X Snow Leopard Pocket Guide']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/642/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/642/>
+{'subtitle': [u'Document-Oriented Data for Web Developers'],
+ 'title': [u'MongoDB and PHP']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1290/> (referer: http://it-ebooks.info/book/4371/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1148/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/23/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/219/> (referer: http://it-ebooks.info/book/3178/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1290/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1290/>
+{'subtitle': [u'Covering Java 7 and Android'],
+ 'title': [u'Sams Teach Yourself Java in 24 Hours, 6th Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1148/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1148/>
+{'subtitle': [u'An Introduction to Statistical Programming'],
+ 'title': [u'Beginning R']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5625/> (referer: http://it-ebooks.info/book/3868/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/23/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/219/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/219/>
+{'subtitle': [u'Master SQL Fundamentals'],
+ 'title': [u'Learning SQL, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5625/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5625/>
+{'subtitle': [], 'title': [u'Beginning Amazon Web Services with Node.js']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1202/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1219/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1609/> (referer: http://it-ebooks.info/book/1209/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1202/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1202/>
+{'subtitle': [], 'title': [u'Programming in CoffeeScript']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1219/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1219/>
+{'subtitle': [u'A Hands-On Guide to Audio Programming for Mac and iOS'],
+ 'title': [u'Learning Core Audio']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1609/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1609/>
+{'subtitle': [], 'title': [u'Pro Spring Integration']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1266/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/588/> (referer: http://it-ebooks.info/book/1209/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1266/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1266/>
+{'subtitle': [u'Solutions for iOS Developers'],
+ 'title': [u'iOS 6 Programming Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1222/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2365/> (referer: http://it-ebooks.info/book/418/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/588/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/588/>
+{'subtitle': [], 'title': [u'Pro Spring Batch']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1235/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1222/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1222/>
+{'subtitle': [u'A Hands-on Guide to Modern 3D Graphics Programming'],
+ 'title': [u'Learning OpenGL ES for iOS']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2365/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2365/>
+{'subtitle': [u'With HTML5 WebSocket, PHP, and jQuery'],
+ 'title': [u'Realtime Web Apps']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1235/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1235/>
+{'subtitle': [],
+ 'title': [u'Windows Azure programming patterns for Start-ups']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/337/> (referer: http://it-ebooks.info/book/1562/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/337/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/337/>
+{'subtitle': [], 'title': [u'Mac OS X Snow Leopard: The Missing Manual']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2983/> (referer: http://it-ebooks.info/book/2945/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2983/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2983/>
+{'subtitle': [],
+ 'title': [u'Pro SharePoint Disaster Recovery and High Availability, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1280/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1692/> (referer: http://it-ebooks.info/book/642/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1280/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1280/>
+{'subtitle': [u'Optimizing & Boosting your Python Programming'],
+ 'title': [u'SciPy and NumPy']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1610/> (referer: http://it-ebooks.info/book/2360/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1293/> (referer: http://it-ebooks.info/tag/programming/page/22/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1692/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1692/>
+{'subtitle': [u"Beginner's Guide"],
+ 'title': [u'PHP and MongoDB Web Development']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/541/> (referer: http://it-ebooks.info/book/642/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1610/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1610/>
+{'subtitle': [], 'title': [u'Beginning Oracle Application Express 4']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1293/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1293/>
+{'subtitle': [u'Secrets to Landing Your Next Job'],
+ 'title': [u'Programming Interviews Exposed, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/541/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/541/>
+{'subtitle': [u'Patterns and processes for the popular document-oriented database'],
+ 'title': [u'MongoDB and Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4329/> (referer: http://it-ebooks.info/book/5625/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4329/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4329/>
+{'subtitle': [u'Building Real-World Scalable Web Apps'],
+ 'title': [u'Practical Node.js']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1343/> (referer: http://it-ebooks.info/book/5625/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1343/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1343/>
+{'subtitle': [u'Porting PHP to Node.js'],
+ 'title': [u'Node.js for PHP Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5961/> (referer: http://it-ebooks.info/book/5625/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1172/> (referer: http://it-ebooks.info/book/1609/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5961/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5961/>
+{'subtitle': [u'Design and implement comprehensive RESTful solutions in Node.js'],
+ 'title': [u'RESTful Web API Design with Node.js']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/827/> (referer: http://it-ebooks.info/book/1609/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2172/> (referer: http://it-ebooks.info/book/219/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1618/> (referer: http://it-ebooks.info/book/219/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1172/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1172/>
+{'subtitle': [], 'title': [u'Spring Integration in Action']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/827/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/827/>
+{'subtitle': [u'A Lightweight Introduction to Spring Integration'],
+ 'title': [u'Just Spring Integration']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2172/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2172/>
+{'subtitle': [u'How to Write Accurate SQL Code'],
+ 'title': [u'SQL and Relational Theory, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1618/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1618/>
+{'subtitle': [u'SQL Server in the Cloud'],
+ 'title': [u'Pro SQL Database for Windows Azure, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/691/> (referer: http://it-ebooks.info/book/2365/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/691/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/691/>
+{'subtitle': [u'A new language for building structured web apps'],
+ 'title': [u'What is Dart?']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/496/> (referer: http://it-ebooks.info/book/2983/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/496/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/496/>
+{'subtitle': [],
+ 'title': [u'Pro SharePoint 2010 Disaster Recovery and High Availability']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3757/> (referer: http://it-ebooks.info/book/2365/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3757/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3757/>
+{'subtitle': [u'Adventures in Better Web Apps'],
+ 'title': [u'Seven Web Frameworks in Seven Weeks']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/tag/programming/page/24/> (referer: http://it-ebooks.info/tag/programming/page/23/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1088/> (referer: http://it-ebooks.info/book/2365/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/907/> (referer: http://it-ebooks.info/book/1692/)
+WARNING: in parse_start_url_a, and the url is:	http://it-ebooks.info/tag/programming/page/24/
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1088/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1088/>
+{'subtitle': [u'Building Apps for the Open Web'],
+ 'title': [u'HTML5 and JavaScript Web Apps']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/907/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/907/>
+{'subtitle': [], 'title': [u'PHP and MySQL Web Development, 4th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/780/> (referer: http://it-ebooks.info/book/1290/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/780/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/780/>
+{'subtitle': [],
+ 'title': [u'Sams Teach Yourself SQL in 24 Hours, 5th Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1162/> (referer: http://it-ebooks.info/book/541/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1162/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1162/>
+{'subtitle': [u'Using Python 2.6 and Python 3.1'],
+ 'title': [u'Beginning Python']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1216/> (referer: http://it-ebooks.info/book/1692/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3072/> (referer: http://it-ebooks.info/book/2983/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1216/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1216/>
+{'subtitle': [], 'title': [u'Ruby and MongoDB Web Development']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3072/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3072/>
+{'subtitle': [],
+ 'title': [u'Microsoft Exchange Server 2013 Inside Out: Mailbox and High Availability']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4744/> (referer: http://it-ebooks.info/book/4329/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/64/> (referer: http://it-ebooks.info/book/1343/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3147/> (referer: http://it-ebooks.info/book/1343/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4744/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4744/>
+{'subtitle': [u'Get the best out of Node.js by mastering a series of patterns and techniques to create modular, scalable, and efficient applications'],
+ 'title': [u'Node.js Design Patterns']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/64/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/64/>
+{'subtitle': [], 'title': [u'Rails for PHP Developers']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3147/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3147/>
+{'subtitle': [], 'title': [u'Pro Node.js for Developers']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/2785/> (referer: http://it-ebooks.info/book/1343/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/2785/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/2785/>
+{'subtitle': [u'Learn how to easily automate testing of your web apps using Node.js, Zombie.js, and Mocha'],
+ 'title': [u'Using Node.js for UI Testing']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/5799/> (referer: http://it-ebooks.info/book/5961/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/4470/> (referer: http://it-ebooks.info/book/541/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/5799/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/5799/>
+{'subtitle': [], 'title': [u'Pro REST API Development with Node.js']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/4470/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/4470/>
+{'subtitle': [u'89 hands-on recipes to help you complete real-world data science projects in R and Python'],
+ 'title': [u'Practical Data Science Cookbook']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/904/> (referer: http://it-ebooks.info/book/1618/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/529/> (referer: http://it-ebooks.info/book/691/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/904/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/904/>
+{'subtitle': [],
+ 'title': [u'Pro SQL Server 2012 Reporting Services, 3rd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/529/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/529/>
+{'subtitle': [u"An Insider's Guide to Launching and Running a Business"],
+ 'title': [u'Startup']}
+INFO: Received SIGINT, shutting down gracefully. Send again to force 
+INFO: Closing spider (shutdown)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/756/> (referer: http://it-ebooks.info/book/496/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/866/> (referer: http://it-ebooks.info/book/3757/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/756/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/756/>
+{'subtitle': [], 'title': [u'Pro SharePoint 2010 Administration']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/68/> (referer: http://it-ebooks.info/book/3757/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/866/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/866/>
+{'subtitle': [u'A Guide to Modern Databases and the NoSQL Movement'],
+ 'title': [u'Seven Databases in Seven Weeks']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3758/> (referer: http://it-ebooks.info/book/3757/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/68/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/68/>
+{'subtitle': [u'A Pragmatic Guide to Learning Programming Languages'],
+ 'title': [u'Seven Languages in Seven Weeks']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3758/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3758/>
+{'subtitle': [u'When Threads Unravel'],
+ 'title': [u'Seven Concurrency Models in Seven Weeks']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/856/> (referer: http://it-ebooks.info/book/907/)
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1941/> (referer: http://it-ebooks.info/book/1162/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/856/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/856/>
+{'subtitle': [u'From Novice to Professional'],
+ 'title': [u'Beginning PHP and MySQL E-Commerce, 2nd Edition']}
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/1941/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/1941/>
+{'subtitle': [u'Mastering Basic Algorithms in the Python Language'],
+ 'title': [u'Python Algorithms']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/3727/> (referer: http://it-ebooks.info/book/1162/)
+WARNING: parse_item, and the url is:	http://it-ebooks.info/book/3727/
+DEBUG: Scraped from <200 http://it-ebooks.info/book/3727/>
+{'subtitle': [u'Crafting Visual Transformation Scripts'],
+ 'title': [u'Beginning Python Visualization, 2nd Edition']}
+DEBUG: Crawled (200) <GET http://it-ebooks.info/book/1018/> (referer: http://it-ebooks.info/book/3072/)
+INFO: Received SIGINT twice, forcing unclean shutdown
+DEBUG: Retrying <GET http://it-ebooks.info/book/3071/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+DEBUG: Retrying <GET http://it-ebooks.info/book/1004/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
+DEBUG: Retrying <GET http://it-ebooks.info/book/3016/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: Chunked decoder in 'CHUNK_LENGTH' state, still expecting more data to get to 'FINISHED' state.>]
