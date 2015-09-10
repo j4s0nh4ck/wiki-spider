@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+#####################################################################
+# Refer to https://codexcipher.wordpress.com/2014/04/11/some-sensational-scrapy-stuff/
+#####################################################################
 '''
 import scrapy
 
